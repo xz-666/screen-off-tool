@@ -1,0 +1,19 @@
+# Windows system files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# User-specific files (shortcuts created by users)
+# 用户创建的快捷方式（不需要提交到仓库）
+*.lnk
