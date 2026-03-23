@@ -47,6 +47,12 @@ The screen may wake up immediately if:
 
 The 3-second countdown gives you time to move your hand away from the mouse.
 
+### 🖥️ System Requirements / 系统要求
+
+- Windows 7 / 8 / 10 / 11
+- PowerShell 3.0 or higher (usually pre-installed)
+- No administrator privileges required / 不需要管理员权限
+
 ### 🔧 File Structure
 
 ```
@@ -56,6 +62,15 @@ screen-off-tool/
 ├── README.md             # This file
 └── LICENSE               # MIT License
 ```
+
+### ❓ Troubleshooting / 故障排除
+
+| Issue / 问题 | Solution / 解决方法 |
+|-------------|-------------------|
+| Hotkey not working / 快捷键不工作 | Some apps (QQ, WeChat) may use `Ctrl+Alt+S`. Right-click the shortcut → Properties → change hotkey. / 某些软件可能占用此快捷键。右键快捷方式→属性→修改快捷键。 |
+| PowerShell error / PowerShell 错误 | Ensure PowerShell execution policy allows scripts. Run as admin: `Set-ExecutionPolicy RemoteSigned` / 确保执行策略允许脚本。以管理员运行：`Set-ExecutionPolicy RemoteSigned` |
+| Screen wakes immediately / 屏幕立即亮起 | Move your hand away from mouse before countdown ends. / 倒计时结束前把手从鼠标上移开。 |
+| How to uninstall? / 如何卸载？ | Delete `ScreenOff.bat` and desktop `ScreenOff.lnk`. / 直接删除文件和桌面快捷方式即可。 |
 
 ---
 
@@ -99,6 +114,12 @@ screen-off-tool/
 
 3 秒倒计时让你有时间把手从鼠标上移开，避免误触。
 
+### 🖥️ 系统要求
+
+- Windows 7 / 8 / 10 / 11
+- PowerShell 3.0 或更高版本（通常预装）
+- 不需要管理员权限
+
 ### 🔧 文件结构
 
 ```
@@ -108,6 +129,15 @@ screen-off-tool/
 ├── README.md             # 说明文档
 └── LICENSE               # MIT 许可证
 ```
+
+### ❓ 故障排除
+
+| 问题 | 解决方法 |
+|------|---------|
+| 快捷键不工作 | 某些软件（如 QQ、微信）可能占用 `Ctrl+Alt+S`。右键快捷方式→属性→修改快捷键。 |
+| PowerShell 错误 | 确保执行策略允许脚本。以管理员运行：`Set-ExecutionPolicy RemoteSigned` |
+| 屏幕立即亮起 | 倒计时结束前把手从鼠标上移开。 |
+| 如何卸载？ | 直接删除 `ScreenOff.bat` 和桌面 `ScreenOff.lnk` 快捷方式即可。 |
 
 ---
 
