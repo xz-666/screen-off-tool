@@ -17,3 +17,11 @@ desktop.ini
 # User-specific files (shortcuts created by users)
 # 用户创建的快捷方式（不需要提交到仓库）
 *.lnk
+
+# Log files
+# 日志文件
+*.log
+
+# CLAIDE local settings
+# 本地设置
+.claude/
