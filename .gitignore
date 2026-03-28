@@ -25,3 +25,7 @@ desktop.ini
 # CLAIDE local settings
 # 本地设置
 .claude/
+
+# NirCmd (third-party tool, download separately)
+# 第三方工具，需单独下载
+nircmd/
